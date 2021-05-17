@@ -1,0 +1,48 @@
+*{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.aboutMe{
+    background-image: url("../img/aboutMe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-perfil{
+    width: 15rem;
+}
+.bg-black{
+    background-color: black;
+}
+.marginIcon{
+    margin:1.5rem 0.5rem;
+}
+.padinIcon{
+    margin:1.5rem 0.5rem;
+}
+.marginIconSkills{
+    margin:2.5rem 3rem;
+}
+.servicesCars{
+    min-height: 15rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin: 0.5rem;
+    align-items: stretch;
+}
+.marginCards{
+    margin:5rem auto;
+}
+
+.paddingConten{
+    padding: 2.5rem;
+}
+.marginConten{
+    margin: 7rem auto ;
+}
+.hover{
+    z-index: 0;
+    transition: transform 0.2s ease;
+}
+.hover:hover{
+    z-index: 1;
+    transform: scale(1.1);
+}
