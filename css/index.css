@@ -1,10 +1,15 @@
 *{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+.titleMain{
+    font-size:9vw;
+    
+}
 .aboutMe{
-    background-image: url("../img/aboutMe.png");
+    background-image: url("../img/fondoAboutMe2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .img-perfil{
     width: 15rem;
