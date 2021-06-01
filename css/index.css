@@ -1,5 +1,26 @@
+:root{
+    --main-color:#17a2b8 
+}
 *{
     font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+body{
+    overflow: auto;
+}
+body::-webkit-scrollbar {
+  width: 15px;               /* width of the entire scrollbar */
+
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+
+  background-color: var(--main-color);/* color of the scroll thumb */
+  border-radius: 100px;       /* roundness of the scroll thumb */
+  border: 15px solid var(--main-color);;  /* creates padding around scroll thumb */
 }
 .titleMain{
     font-size:9vw;
@@ -48,7 +69,18 @@
     z-index: 1;
     transform: scale(1.1);
 }
-
+.hoverNavBar{
+    z-index: 0;
+    transition: transform 0.8s ease;
+}
+.hoverNavBar:hover{
+    z-index: 1;
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    color: #000 !important;
+    background-color: #17a2b8 !important;
+    border-radius: 15px;
+}
 #backToTop {
     display: inline-block;
     background-color: #FF9800;
